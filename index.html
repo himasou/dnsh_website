@@ -36,26 +36,74 @@
 
     <section id="showcase">
       <div class="container">
-        <h1>Welcome</h1>
+        <h1>Welcome to DNSH Consulting</h1>
+        <p class="tagline">Your Trusted IT Partner for Modern Business Solutions</p>
           <section id="boxes">
-            <div class="box">
-              <a href="services.html">
-              <img src="./Images/Networking.png">
+            <div class="box" data-service="cloud-security">
+              <div class="icon-wrapper">
+                <svg class="service-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M50 20 L80 35 L80 65 L50 80 L20 65 L20 35 Z" fill="none" stroke="currentColor" stroke-width="3"/>
+                  <path d="M50 35 L65 43 L65 57 L50 65 L35 57 L35 43 Z" fill="currentColor"/>
+                  <circle cx="50" cy="50" r="8" fill="#fff"/>
+                </svg>
               </div>
-              <div class="box">
-                <img src="./Images/Automation.png">
+              <h3>Cloud Security</h3>
+              <p>Protect your cloud infrastructure with enterprise-grade security solutions</p>
+            </div>
+            <div class="box" data-service="networking">
+              <div class="icon-wrapper">
+                <svg class="service-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="50" cy="20" r="8" fill="currentColor"/>
+                  <circle cx="25" cy="80" r="8" fill="currentColor"/>
+                  <circle cx="75" cy="80" r="8" fill="currentColor"/>
+                  <circle cx="50" cy="50" r="10" fill="currentColor"/>
+                  <line x1="50" y1="28" x2="50" y2="40" stroke="currentColor" stroke-width="3"/>
+                  <line x1="50" y1="60" x2="30" y2="74" stroke="currentColor" stroke-width="3"/>
+                  <line x1="50" y1="60" x2="70" y2="74" stroke="currentColor" stroke-width="3"/>
+                </svg>
               </div>
-              <div class="box">
-                <img src="./Images/Virtualisation.png">
+              <h3>Networking</h3>
+              <p>Design, implement, and optimize robust network infrastructures</p>
+            </div>
+            <div class="box" data-service="remote-support">
+              <div class="icon-wrapper">
+                <svg class="service-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="20" y="30" width="60" height="40" rx="3" fill="none" stroke="currentColor" stroke-width="3"/>
+                  <line x1="30" y1="75" x2="70" y2="75" stroke="currentColor" stroke-width="3"/>
+                  <circle cx="50" cy="50" r="5" fill="currentColor"/>
+                  <path d="M35 45 Q35 35 50 35 Q65 35 65 45" fill="none" stroke="currentColor" stroke-width="2"/>
+                </svg>
               </div>
+              <h3>Remote Support</h3>
+              <p>24/7 expert assistance whenever and wherever you need it</p>
+            </div>
+            <div class="box" data-service="office365">
+              <div class="icon-wrapper">
+                <svg class="service-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="25" y="25" width="50" height="50" rx="5" fill="none" stroke="currentColor" stroke-width="3"/>
+                  <line x1="50" y1="25" x2="50" y2="75" stroke="currentColor" stroke-width="3"/>
+                  <line x1="25" y1="50" x2="75" y2="50" stroke="currentColor" stroke-width="3"/>
+                  <circle cx="37.5" cy="37.5" r="3" fill="currentColor"/>
+                  <circle cx="62.5" cy="37.5" r="3" fill="currentColor"/>
+                  <circle cx="37.5" cy="62.5" r="3" fill="currentColor"/>
+                  <circle cx="62.5" cy="62.5" r="3" fill="currentColor"/>
+                </svg>
+              </div>
+              <h3>Office 365 Expertise</h3>
+              <p>Maximize productivity with expert Office 365 deployment and management</p>
+            </div>
           </section>
-          <p>Specialising in networking, automation and virtualisation</p>
-          <a href="about.html"><button type="More about us" class="button_1">More about us</a></button>
+          <div class="cta-section">
+            <p class="expertise-text">Specialising in cloud security, networking, remote support, and Office 365 solutions</p>
+            <a href="about.html"><button type="button" class="button_1">Discover Our Services</button></a>
+          </div>
       </div>
     </section>
 
     <footer>
-      <p>DNSH Consluting, Copyright &copy; 2017</p>
+      <p>DNSH Consulting, Copyright &copy; 2026</p>
     </footer>
+    
+    <script src="./js/main.js"></script>
   </body>
 </html>
