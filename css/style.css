@@ -43,13 +43,13 @@ ul {
 
  /*Social*/
 .container #social img {
-  height: 50px;
+  height: 30px;
   padding-top: 17.5px;
 }
 
  #social img {
    float: right;
-   padding: 0 20px 0 20px;
+   padding: 0 8px 0 8px;
  }
 
  #social img:hover {
